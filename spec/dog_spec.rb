@@ -75,7 +75,6 @@ describe "Dog" do
     end
     it 'returns a new dog object' do
       dog = Dog.create(name: "Dave", breed: "podle")
-
       expect(teddy).to be_an_instance_of(Dog)
       expect(dog.name).to eq("Dave")
     end
